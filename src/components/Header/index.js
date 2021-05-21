@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./header.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShoppingBag } from "@fortawesome/free-solid-svg-icons";
+import Cart from "../CartIcon/index";
 
 const Header = () => {
   return (
@@ -16,9 +15,10 @@ const Header = () => {
         </li>
         <li>
           <Link to="/shop">Shop</Link>
-          <FontAwesomeIcon icon={faShoppingBag} />
         </li>
       </ul>
+
+      <Cart />
     </nav>
   );
 };
