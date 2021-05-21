@@ -1,7 +1,6 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
 import GradientForSale from "../../assets/banner.PNG";
-
 import "./Main.scss";
 
 const Main = () => {
