@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Gradient_Shop/static/css/main.f9aefc3f.chunk.css",
+    "main.js": "/Gradient_Shop/static/js/main.6a2bcd57.chunk.js",
+    "main.js.map": "/Gradient_Shop/static/js/main.6a2bcd57.chunk.js.map",
+    "runtime-main.js": "/Gradient_Shop/static/js/runtime-main.086ef87a.js",
+    "runtime-main.js.map": "/Gradient_Shop/static/js/runtime-main.086ef87a.js.map",
+    "static/css/2.ad738a76.chunk.css": "/Gradient_Shop/static/css/2.ad738a76.chunk.css",
+    "static/js/2.778c5a87.chunk.js": "/Gradient_Shop/static/js/2.778c5a87.chunk.js",
+    "static/js/2.778c5a87.chunk.js.map": "/Gradient_Shop/static/js/2.778c5a87.chunk.js.map",
+    "index.html": "/Gradient_Shop/index.html",
+    "static/css/2.ad738a76.chunk.css.map": "/Gradient_Shop/static/css/2.ad738a76.chunk.css.map",
+    "static/css/main.f9aefc3f.chunk.css.map": "/Gradient_Shop/static/css/main.f9aefc3f.chunk.css.map",
+    "static/js/2.778c5a87.chunk.js.LICENSE.txt": "/Gradient_Shop/static/js/2.778c5a87.chunk.js.LICENSE.txt",
+    "static/media/Hero.scss": "/Gradient_Shop/static/media/1-5.3b1ce0ff.png",
+    "static/media/banner.27369cae.PNG": "/Gradient_Shop/static/media/banner.27369cae.PNG",
+    "static/media/font-awesome.min.css": "/Gradient_Shop/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.086ef87a.js",
+    "static/css/2.ad738a76.chunk.css",
+    "static/js/2.778c5a87.chunk.js",
+    "static/css/main.f9aefc3f.chunk.css",
+    "static/js/main.6a2bcd57.chunk.js"
+  ]
+}
