@@ -1,9 +1,6 @@
 import React, { useContext } from "react";
-import ProductsContextProvider, {
-  ProductsContext,
-} from "../../context/products-context";
-import FeaturedProduct from "../shared/Featured/index";
-import "./FeaturedCollection.scss";
+import { ProductsContext } from "../../context/products-context";
+import FeaturedProduct from "../shared/Featured/";
 
 const FeaturedCollection = () => {
   const { products } = useContext(ProductsContext);

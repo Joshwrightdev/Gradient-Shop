@@ -7,7 +7,7 @@ const Featured = (product) => {
   return (
     <div className="featured">
       <div className="featured-image">
-        <img src={imageUrl}></img>
+        <img className="feat__img" src={imageUrl}></img>
       </div>
       <div className="name-price">
         <h3>{title}</h3>
