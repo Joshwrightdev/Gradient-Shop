@@ -1,18 +1,13 @@
-import Header from "./components/Header/index";
-import Hero from "./components/Hero/index";
-import Main from "./components/Main/index";
-import Footer from "./components/Footer/index";
-import FeaturedCollection from "./components/Featured-Collection/index";
+import { Switch, Route } from "react-router-dom";
+import Home from "./components/Home";
 import "./App.scss";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Hero />
-      <Main />
-      <FeaturedCollection />
-      <Footer />
+      <Switch>
+        <Route exact path="/" component={Home} />
+      </Switch>
     </div>
   );
 }
