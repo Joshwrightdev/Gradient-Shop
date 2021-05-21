@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Gradient-Shop/static/css/main.d1dc3d2f.chunk.css",
-    "main.js": "/Gradient-Shop/static/js/main.6a2bcd57.chunk.js",
-    "main.js.map": "/Gradient-Shop/static/js/main.6a2bcd57.chunk.js.map",
+    "main.js": "/Gradient-Shop/static/js/main.639e6867.chunk.js",
+    "main.js.map": "/Gradient-Shop/static/js/main.639e6867.chunk.js.map",
     "runtime-main.js": "/Gradient-Shop/static/js/runtime-main.bfab596d.js",
     "runtime-main.js.map": "/Gradient-Shop/static/js/runtime-main.bfab596d.js.map",
     "static/css/2.c98532f5.chunk.css": "/Gradient-Shop/static/css/2.c98532f5.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.c98532f5.chunk.css",
     "static/js/2.778c5a87.chunk.js",
     "static/css/main.d1dc3d2f.chunk.css",
-    "static/js/main.6a2bcd57.chunk.js"
+    "static/js/main.639e6867.chunk.js"
   ]
 }
