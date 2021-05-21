@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-## https://joshwrightdev.github.io/Gradient_Shop/
+## https://joshwrightdev.github.io/Gradient-Shop/
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
