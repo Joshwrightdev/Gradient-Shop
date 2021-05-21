@@ -1,4 +1,4 @@
-.main-section-container {
+.main-container {
   width: 70%;
   margin: 3rem auto;
 
@@ -6,7 +6,7 @@
     font-size: 1.1rem;
   }
 
-  .ms-m-description {
+  .main-m-description {
     p {
       font-size: 0.933rem;
       line-height: 1.5;
@@ -18,11 +18,11 @@
       display: flex;
       justify-content: space-between;
 
-      .ms-image {
+      .main-m-image {
         max-width: 545px;
         flex: 1 0 545px;
       }
-      .ms-m-description {
+      .main-m-description {
         margin-left: 30px;
         align-self: center;
         p {
