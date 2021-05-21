@@ -1,6 +1,6 @@
 {
   "name": "stripe-sys",
-  "homepage":"https://joshwrightdev.github.io/STRIPE_REACT_SHOP",
+  "homepage":"https://joshwrightdev.github.io/STRIPE_REACT_SHOP/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
