@@ -1,21 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./CartIcon.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingBag } from "@fortawesome/free-solid-svg-icons";
-
-
+import {CartContext} from "../../context/cart-context";
 
 const CartIcon = () => {
+  const { itemCount } = useContext(CartContext);
   return (
-    
-    <div className="cart-container"> 
+    <div className="cart-container">
       <FontAwesomeIcon
         className="cart__icon"
         alt="shopping-cart-icon"
         icon={faShoppingBag}
       />
-      <span className="cart-count">5</span>
-      
+      {itemCount > 0 ? <span className="cart-count">{itemCount}</span> : null}
     </div>
   );
 };
