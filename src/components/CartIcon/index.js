@@ -5,7 +5,8 @@ import { faShoppingBag } from "@fortawesome/free-solid-svg-icons";
 import {CartContext} from "../../context/cart-context";
 
 const CartIcon = () => {
-  const { itemCount } = useContext(CartContext);
+  const { itemCount, cartItems } = useContext(CartContext);
+  console.log('CartItems:',cartItems)
   return (
     <div className="cart-container">
       <FontAwesomeIcon
