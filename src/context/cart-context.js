@@ -9,9 +9,15 @@ const CartContextProvider = ({ children }) => {
   const [state, dispatch] = useReducer(cartReducer, intialState);
   const addProduct = (product) =>
     dispatch({ type: "ADD_ITEM", payload: product });
+  const increase = (product) =>
+    dispatch({ type: "INCREASE", payload: product });
+  const decrease = (product) =>
+    dispatch({ type: "DECREASE", payload: product });
   const contextValues = {
     ...state,
     addProduct,
+    increase,
+    decrease,
   };
   return (
     <CartContext.Provider value={contextValues}>

@@ -3,7 +3,8 @@ import Home from "./components/CartIcon/Home";
 import "./App.scss";
 import NotFound from "./components/Not-Found";
 import Shop from "./components/Pages/shop";
-import SingleProduct from "./components/Single-Product/index";
+import CartPage from "./components/Pages/CartPage/page";
+import SingleProduct from "./components/Single-Product";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/shop" component={Shop} />
         <Route path="/product/:id" component={SingleProduct} />
+        <Route path="/cart" component={CartPage} />
         <Route path="*" component={Home} />
       </Switch>
     </div>

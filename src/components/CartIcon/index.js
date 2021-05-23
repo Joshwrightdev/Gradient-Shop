@@ -1,14 +1,15 @@
 import React, { useContext } from "react";
+import { withRouter } from "react-router-dom";
 import "./CartIcon.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingBag } from "@fortawesome/free-solid-svg-icons";
-import {CartContext} from "../../context/cart-context";
+import { CartContext } from "../../context/cart-context";
 
-const CartIcon = () => {
+const CartIcon = ({ history }) => {
   const { itemCount, cartItems } = useContext(CartContext);
-  console.log('CartItems:',cartItems)
+  console.log("CartItems:", cartItems);
   return (
-    <div className="cart-container">
+    <div className="cart-container" onClick={() => history.push("/cart")}>
       <FontAwesomeIcon
         className="cart__icon"
         alt="shopping-cart-icon"
@@ -19,4 +20,4 @@ const CartIcon = () => {
   );
 };
 
-export default CartIcon;
+export default withRouter(CartIcon);
