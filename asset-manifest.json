@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Gradient-Shop/static/css/main.df5a3df0.chunk.css",
-    "main.js": "/Gradient-Shop/static/js/main.5753b892.chunk.js",
-    "main.js.map": "/Gradient-Shop/static/js/main.5753b892.chunk.js.map",
+    "main.css": "/Gradient-Shop/static/css/main.b68fb39b.chunk.css",
+    "main.js": "/Gradient-Shop/static/js/main.f6ed7064.chunk.js",
+    "main.js.map": "/Gradient-Shop/static/js/main.f6ed7064.chunk.js.map",
     "runtime-main.js": "/Gradient-Shop/static/js/runtime-main.bfab596d.js",
     "runtime-main.js.map": "/Gradient-Shop/static/js/runtime-main.bfab596d.js.map",
     "static/css/2.c98532f5.chunk.css": "/Gradient-Shop/static/css/2.c98532f5.chunk.css",
-    "static/js/2.57621077.chunk.js": "/Gradient-Shop/static/js/2.57621077.chunk.js",
-    "static/js/2.57621077.chunk.js.map": "/Gradient-Shop/static/js/2.57621077.chunk.js.map",
+    "static/js/2.0774eeaf.chunk.js": "/Gradient-Shop/static/js/2.0774eeaf.chunk.js",
+    "static/js/2.0774eeaf.chunk.js.map": "/Gradient-Shop/static/js/2.0774eeaf.chunk.js.map",
     "index.html": "/Gradient-Shop/index.html",
     "static/css/2.c98532f5.chunk.css.map": "/Gradient-Shop/static/css/2.c98532f5.chunk.css.map",
-    "static/css/main.df5a3df0.chunk.css.map": "/Gradient-Shop/static/css/main.df5a3df0.chunk.css.map",
-    "static/js/2.57621077.chunk.js.LICENSE.txt": "/Gradient-Shop/static/js/2.57621077.chunk.js.LICENSE.txt",
+    "static/css/main.b68fb39b.chunk.css.map": "/Gradient-Shop/static/css/main.b68fb39b.chunk.css.map",
+    "static/js/2.0774eeaf.chunk.js.LICENSE.txt": "/Gradient-Shop/static/js/2.0774eeaf.chunk.js.LICENSE.txt",
     "static/media/Hero.scss": "/Gradient-Shop/static/media/1-5.3b1ce0ff.png",
     "static/media/banner.27369cae.PNG": "/Gradient-Shop/static/media/banner.27369cae.PNG",
     "static/media/font-awesome.min.css": "/Gradient-Shop/static/media/fontawesome-webfont.f691f37e.woff"
@@ -19,8 +19,8 @@
   "entrypoints": [
     "static/js/runtime-main.bfab596d.js",
     "static/css/2.c98532f5.chunk.css",
-    "static/js/2.57621077.chunk.js",
-    "static/css/main.df5a3df0.chunk.css",
-    "static/js/main.5753b892.chunk.js"
+    "static/js/2.0774eeaf.chunk.js",
+    "static/css/main.b68fb39b.chunk.css",
+    "static/js/main.f6ed7064.chunk.js"
   ]
 }
